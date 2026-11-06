@@ -8,6 +8,40 @@ This is the official OWASP project link: <https://owasp.org/www-project-certifie
 ## Project Status
 This repository is a curriculum-development resource, not an exam registration service or a finalized certification handbook.
 
+## Charter
+
+**Purpose.** Define the web application security knowledge that a foundation-level developer certification validates.
+
+**Goals.**
+
+- Publish a vendor-neutral curriculum built on established OWASP resources.
+- Define measurable learning outcomes and an assessable body of knowledge for each module.
+- Provide supplementary reading so developers can prepare without a formal security background.
+- Provide sample questions that trace back to the learning outcomes.
+
+**Non-goals.**
+
+- Practical exercises, coding tasks, or tool operation. The assessment is knowledge-based.
+- Specialized or advanced material, which belongs in future certifications.
+- Exam registration, proctoring, or delivery.
+
+**Governance.** The OWASP OCSD working group maintains the curriculum.
+Module changes are reviewed through pull requests.
+Changes that affect several modules or the module list need a working group decision, opened as a [GitHub issue](https://github.com/OWASP/OCSD/issues) first.
+
+**Joining.** Open an issue or a pull request, and read [CONTRIBUTING](./CONTRIBUTING.md) first.
+
+**Assessment format.** Knowledge-based questions only, with learning outcomes written using the verbs `identify`, `recognize`, and `distinguish`.
+Sample questions are public in [Sample Question Bank](./Sample%20Question%20Bank.md) so candidates and authors can see the expected style and depth.
+
+## Repository Layout
+
+- [Curriculum](./Curriculum) contains one directory per module with objectives, body of knowledge, references, and supplementary reading.
+- [Sample Question Bank](./Sample%20Question%20Bank.md) contains sample assessment questions.
+- [To be decided](./To%20be%20decided) contains material the working group has not yet adopted. It is not part of the curriculum.
+- [CONTRIBUTING](./CONTRIBUTING.md) defines structure, style, and review rules.
+- [LICENSE](./LICENSE) applies to everything in this repository.
+
 ## Audience and Scope
 OCSD is intended for web application developers who want to demonstrate foundational security knowledge and for hiring managers who need to assess that knowledge.
 
@@ -49,18 +83,21 @@ Here are the [curriculum modules](/Curriculum) that the working group for OCSD h
 
 ## Body of Knowledge
 
-The curriculum prioritizes established OWASP resources and projects, but the working group is open to include other open-source materials too, if the license is suitable for our use case.
+The curriculum prioritizes established OWASP resources and projects, but the working group is open to include other open-source materials too, if the license is compatible with CC BY-SA 4.0.
 
 Here is an excerpt of OWASP projects that we are referencing:
 
-* <https://owasp.org/www-project-application-security-verification-standard/>
-* <https://cheatsheetseries.owasp.org/index.html>
-* <https://devguide.owasp.org/>
-* <https://owaspsamm.org/>
-* <https://owasp.org/www-project-mobile-app-security/>
-* <https://owasp.org/www-project-top-ten/>
-* <https://owasp.org/www-project-web-security-testing-guide/>
-* <https://owasp.org/www-project-code-review-guide/>
+- [Application Security Verification Standard (ASVS) 5.0.0](https://asvs.owasp.org/)
+- [Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
+- [Developer Guide](https://devguide.owasp.org/)
+- [Software Assurance Maturity Model (SAMM)](https://owaspsamm.org/)
+- [Mobile Application Security](https://mas.owasp.org/)
+- [Top 10:2025](https://owasp.org/Top10/2025/)
+- [API Security Top 10:2023](https://owasp.org/API-Security/editions/2023/en/0x00-header/)
+- [Web Security Testing Guide (WSTG) v4.2](https://owasp.org/www-project-web-security-testing-guide/v42/)
+- [Code Review Guide](https://owasp.org/www-project-code-review-guide/)
+
+Modules cite the editions listed above unless a module states otherwise.
 
 
 ## Contributing
@@ -68,6 +105,15 @@ Here is an excerpt of OWASP projects that we are referencing:
 Contributions can improve the certification objectives, clarify the body of knowledge, add relevant references and teaching examples, or review sample questions.
 Please read the [contributing guidelines](./CONTRIBUTING.md) before submitting any changes (PRs), and keep module revisions separate from repository-wide changes.
 For proposals that affect the whole curriculum, please open a [GitHub issue](https://github.com/OWASP/OCSD/issues) first.
+
+## Frequently Asked Questions
+
+**Does holding another certification, such as CSSLP or CREST OVS, give credit toward OCSD?**
+No. OCSD is a knowledge-based foundation certification, and the working group has not defined equivalence or grandfathering rules for other certifications.
+To propose one, open a [GitHub issue](https://github.com/OWASP/OCSD/issues) that explains how the other certification's scope maps to the OCSD modules.
+
+**Are the sample questions the real exam?**
+No. The questions are samples that show the expected style and depth.
 
 ## License
 
